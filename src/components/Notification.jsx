@@ -17,7 +17,7 @@ const Notification = () => {
         <p className='font-bold text-xl dark:text-gray-500'>Notification</p>
         <button
           type='button'
-          onClick={() => setIsClicked({cart: false})}
+          onClick={() => setIsClicked({notification: false})}
           style={{ color: 'rgb(153, 171, 180)', borderRadius: '50%' }}
           className="text-2xl hover:drop-shadow-xl hover:bg-light-gray"
         >
@@ -39,7 +39,7 @@ const Notification = () => {
       <Button
         color="white"
         bgColor={currentColor}
-        text="Place Order"
+        text="See all notifications"
         borderRadius="10px"
         extraStyle='w-full mt-5'
         onClick={() => setIsClicked({notification: false})}

@@ -17,7 +17,7 @@ const Chat = () => {
         <p className='font-bold text-xl dark:text-gray-500'>Messages</p>
         <button
             type='button'
-            onClick={() => setIsClicked({cart: false})}
+            onClick={() => setIsClicked({chat: false})}
             style={{ color: 'rgb(153, 171, 180)', borderRadius: '50%' }}
             className="text-2xl hover:drop-shadow-xl hover:bg-light-gray"
           >
