@@ -8,17 +8,6 @@ import { useStateContext } from '../contexts/ContextProvider'
 
 import { chatData } from '../data/dummy'
 
-const ChatItem = ({item}) => {
-  <div>
-    <img src={item.image} alt="" />
-    <div>
-      <h2>{item.message}</h2>
-      <p>{item.desc}</p>
-      <p>{item.time}</p>
-    </div>
-  </div>
-}
-
 const Chat = () => {
   const { currentColor, setIsClicked } = useStateContext()
 
